@@ -1,0 +1,17 @@
+{
+    "name": "minecraft-ww1984",
+    "version": "1.13.2",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "heist.ts"
+
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
