@@ -1,6 +1,6 @@
 {
     "name": "minecraft-wwheist",
-    "version": "0.00.1",
+    "version": "0.00.2",
     "dependencies": {
         "core": "*",
         "builder": "*"
