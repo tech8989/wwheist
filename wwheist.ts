@@ -63,7 +63,7 @@ namespace ww {
     /**
      * Turn Wonder Woman in the t direction
      */
-    //% block="Turn %t"
+    //% block="向きを変える %t"
     export function turnWW(t: TurnDirection): void {
         if(shouldStop()) return;
 
@@ -91,7 +91,7 @@ namespace ww {
     /**
      * Inspect in the d direction for the painting
      */
-    //% block="painting inside crate %d"
+    //% block="木箱の中に絵があるか調べる %d"
     export function locatePainting(d: Direction): boolean {
         if(shouldStop()) return false;
 
