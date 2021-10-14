@@ -49,7 +49,7 @@ namespace ww {
     /**
      * Move Wonder Woman n spaces in the d direction dayon
      */
-    //% block="動く %d  %n burokku"
+    //% block="動く %d  %n 歩"
     export function moveWW(d: Direction, n: number): void {
         for (let i = 0; i < n; i++){
             if(shouldStop()) return;
