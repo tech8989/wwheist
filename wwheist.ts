@@ -1,26 +1,26 @@
 // enums
 enum Direction {
-    //% block="forward"
+    //% block="前"
     Forward,
-    //% block="back"
+    //% block="後ろ"
     Back,
-    //% block="left"
+    //% block="左"
     Left,
-    //% block="right"
+    //% block="右"
     Right
 }
 
 enum BeamsGlass {
-    //% blockIdentity="blocks.block" enumval=262385 block="Yellow Stained Glass"
+    //% blockIdentity="blocks.block" enumval=262385 block="黄色 ステンドグラス"
     //% jres alias=YELLOW_STAINED_GLASS
     YellowStainedGlass = 262385,
-    //% blockIdentity="blocks.block" enumval=327921 block="Lime Stained Glass"
+    //% blockIdentity="blocks.block" enumval=327921 block="ライム ステンドグラス"
     //% jres alias=LIME_STAINED_GLASS
     LimeStainedGlass = 327921,
-    //% blockIdentity="blocks.block" enumval=721137 block="Blue Stained Glass"
+    //% blockIdentity="blocks.block" enumval=721137 block="青 ステンドグラス"
     //% jres alias=BLUE_STAINED_GLASS
     BlueStainedGlass = 721137,
-    //% blockIdentity="blocks.block" enumval=917745 block="Red Stained Glass"
+    //% blockIdentity="blocks.block" enumval=917745 block="赤 ステンドグラス"
     //% jres alias=RED_STAINED_GLASS
     RedStainedGlass = 917745
 }
@@ -47,7 +47,7 @@ const turns = [
 namespace ww {
 
     /**
-     * Move Wonder Woman n spaces in the d direction dayon
+     * Move Wonder Woman n spaces in the d direction
      */
     //% block="動く %d  %n 歩"
     export function moveWW(d: Direction, n: number): void {
@@ -76,7 +76,7 @@ namespace ww {
      * Place block in the d direction
      * @param block the block
      */    
-    //% block="Place %block %d"
+    //% block="置く %block %d"
     export function placeBlock(block: BeamsGlass, d: Direction): void {
         if(shouldStop()) return;
 
@@ -105,7 +105,7 @@ namespace ww {
     /**
      * Break the block in the d direction
      */
-    //% block="Break crate %d"
+    //% block="木箱をこわす %d"
     export function retrievePainting(d: Direction): void {
         if(shouldStop()) return;
 
