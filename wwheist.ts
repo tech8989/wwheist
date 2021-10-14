@@ -117,7 +117,7 @@ namespace ww {
     /**
      * Inspect in the d direction for Goon
      */
-    //% block="attendee is the thief %d"
+    //% block="参加者は泥棒か %d"
     export function locateGoon(d: Direction): boolean {
         if(shouldStop()) return false;
 
@@ -131,7 +131,7 @@ namespace ww {
     /**
      * Inspect in the d direction for GOLD_BLOCK
      */
-    //% block="Lasso thief %d"
+    //% block="泥棒を捕まえる %d"
     export function apprehendGoon(d: Direction): void {
         if(shouldStop()) return;
 
@@ -143,7 +143,7 @@ namespace ww {
     /**
      * Inspect in the d direction for GOLD_BLOCK
      */
-    //% block="Takedown criminal %d"
+    //% block="犯人を倒す %d"
     export function takedownGoon(d: Direction): void {
         if(shouldStop()) return;
 
